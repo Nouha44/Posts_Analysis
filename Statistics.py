@@ -3,7 +3,7 @@ import streamlit as st
 
 # Load the Excel file
 excel_file = "Nouha_final_data_with_engagement1.xlsx"
-df = pd.read_excel(excel_file)
+df = pd.read_excel(excel_file,engine='openpyxl')
 st.title("Likes/Comments/Shares/viewCounts Analysis")
 
 def load_css(file_name):
