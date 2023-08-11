@@ -1,4 +1,6 @@
 pandas==1.0.0
 plotly==5.9.0
 streamlit==1.23.1
+xlrd==2.0.1
+
 
